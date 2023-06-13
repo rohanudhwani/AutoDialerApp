@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
         btnStartPauseDialer.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(dialerStatus==false && isPaused==false){
+                if(dialerStatus==false){
                     startDialer();
                 } else if (dialerStatus==true && isPaused) {
                     resumeDialer();
@@ -175,7 +175,7 @@ public class MainActivity extends AppCompatActivity {
         txtCurrentStatus.setText("Auto Dialer:  Paused");
         btnStartPauseDialer.setBackgroundColor(getResources().getColor(R.color.blue));
         btnStartPauseDialer.setTextColor(getResources().getColor(R.color.white));
-        dialerStatus=false;
+        isPaused=true;
         pauseCountdown();
 
     }
