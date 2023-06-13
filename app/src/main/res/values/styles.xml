@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="StopButtonStyle" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/red</item>
+    </style>
+    <style name="StartButtonStyle" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/blue</item>
+    </style>
+    <style name="PauseButtonStyle" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/blue</item>
+    </style>
+
+
+</resources>
